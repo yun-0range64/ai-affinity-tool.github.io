@@ -510,10 +510,10 @@ $('#groups').on('click', '.insight-icon', function() {
     $container.toggleClass('visible');
 
     if ($container.hasClass('visible')) {
-        $icon.attr('src', './images/icon/insight_inactive.png');
+        $icon.attr('src', './images/Icon/insight_inactive.png');
         $container.removeClass('inactive');
     } else {
-        $icon.attr('src', './images/icon/insight_active.png');
+        $icon.attr('src', './images/Icon/insight_active.png');
         $container.addClass('inactive');
     }
 });
